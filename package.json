@@ -1,0 +1,19 @@
+{
+  "name": "marbles2",
+  "version": "1.0.0",
+  "description": "marbles baby!",
+  "main": "myscript.spec.js",
+  "scripts": {
+    "test": "jasmine-node myscript.spec.js"
+  },
+  "author": "Scott",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.1.0",
+    "jasmine-marbles": "^0.2.0",
+    "jasmine-node": "^1.14.5",
+    "rxjs": "^5.5.11",
+    "rxjs-compat": "^6.2.0"
+  }
+}

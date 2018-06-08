@@ -1,0 +1,30 @@
+  597  npm install npm@latest -g
+  544  npm init
+  564  tsc --init (Set up files section of tsconfig.json to list files you want compiled.
+  553  npm install rxjs
+  558  npm install rxjs-compat
+--------------WORKS!-------------------
+
+    539  npm install jasmine
+    543  npm install @types/jasmine
+    NEW ERROR: TestColdObservable' is not assignable to parameter of type
+    =======================================
+
+
+  545  npm install jasmine-marbles --save-dev
+
+-------------everything compiles======================
+
+  npm install jasmine-node
+-------------everything works!!!!=======================
+
+  561  npm install @types/node --save-dev
+  563  npm install @types/node@10.1.2 --save-dev
+
+  590  cp ../marbles/history .
+  591  cat history 
+  592  rm -rf node_modules/
+  593  npm cache clear
+  594  npm cache clear --force
+  595  npm i
+  596  npm -v
